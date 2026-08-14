@@ -1,26 +1,36 @@
-# Password Generator
+# Contact Book
 
 ## Description
 
-A simple Python-based password generator that creates strong random passwords based on the length provided by the user.
+A simple command-line Contact Book application developed using Python.
+It allows users to add, view, search, update, and delete contacts.
+The contacts are stored in a JSON file so that the data remains available
+after the program is closed.
 
 ## Features
 
-- Generate random passwords
-- Supports letters, numbers, and special characters
-- Minimum password length validation
-- Handles invalid user input
-- Uses Python's `secrets` module for secure random generation
+- Add new contacts
+- View all contacts
+- Search for a contact
+- Update contact details
+- Delete contacts
+- Save contacts using JSON file handling
+- Load saved contacts when the program starts
+- Handles invalid menu choices
 
 ## Technologies Used
 
 - Python
-- secrets module
-- string module
+- JSON
+- File Handling
+- Dictionaries
+- Functions
 
-## How to Run
+## Project Structure
 
-Open the terminal in the project folder and run:
-
-```bash
-py password_generator.py
+```text
+Task5_Contact_Book/
+│
+├── contact_book.py
+├── contacts.json
+└── README.md
