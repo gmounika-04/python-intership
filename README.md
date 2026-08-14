@@ -1,33 +1,26 @@
-# To-Do List Application
+# Password Generator
 
 ## Description
 
-A simple command-line To-Do List application developed using Python. 
-The application allows users to manage their daily tasks and stores 
-the tasks permanently using a JSON file.
+A simple Python-based password generator that creates strong random passwords based on the length provided by the user.
 
 ## Features
 
-- Add new tasks
-- View all tasks
-- Mark tasks as completed
-- Delete tasks
-- Save tasks using JSON file handling
-- Load previously saved tasks
-- Input validation
-- Error handling for invalid input
+- Generate random passwords
+- Supports letters, numbers, and special characters
+- Minimum password length validation
+- Handles invalid user input
+- Uses Python's `secrets` module for secure random generation
 
 ## Technologies Used
 
 - Python
-- JSON
-- File Handling
+- secrets module
+- string module
 
-## Project Structure
+## How to Run
 
-```text
-Task1_ToDo_List/
-│
-├── todo.py
-├── tasks.json
-└── README.md
+Open the terminal in the project folder and run:
+
+```bash
+py password_generator.py
